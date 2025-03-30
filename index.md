@@ -13,9 +13,9 @@
 
 ## 📂 Featured Work
 | 📌 **Project Name** | 📝 **Description** | 🔗 **Link** |  
-|---------------------|-------------------|-------------|
-| **API Documentation for XYZ API** | Created REST API documentation using OpenAPI | [View Docs](#) |
-| **Deploying a Node.js App on AWS** | Comprehensive DevOps guide with Terraform setup | [View Guide](#) |
+|---------------------|-------------------|-------------|  
+| **API Documentation for XYZ API** | Created REST API documentation using OpenAPI | [View Docs](#) |  
+| **Deploying a Node.js App on AWS** | Comprehensive DevOps guide with Terraform setup | [View Guide](#) |  
 | **AI for Threat Detection** | Research paper on AI-driven security | [Read Paper](#) |
 
 ---
