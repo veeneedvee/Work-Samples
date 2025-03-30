@@ -43,8 +43,33 @@ To run the application smoothly, Intel host CPUs must have __SSE2__ (Streaming S
 ## Download VirtualBox
 
 Go to [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) page to download the VirtualBox installer. At the moment of writing this installation guide, the latest VirtualBox version is _7.1.6_. You can choose the compatible package for your OS. 
-![Download VirtualBox Page](image.png)
-You can also download older versions by clicking __VirtualBox older builds__ link in _Previous Releases_ section.
+![Download VirtualBox Page](image.png)  
+
+You can also download older versions by clicking _VirtualBox older builds_ link in __Previous Releases__ section.
 ![Download Older VirtualBox](image-1.png)
 
-### 
+## Steps to install and configure
+
+### For MacOS (Intel chip)
+
+1. To install VirtualBox, double-click the downloaded package installer.
+   The _Install Oracle VirtualBox_ wizard appears.
+2. Click __Continue__ to proceed further.
+   ![Start installation](VirBox-1.png)
+3. Choose a suitable option from __Destination Select__ section and click __Continue__. 
+   ![Select Destination](VirBox-2-1.png)
+4. Next, choose either standard installation or click __Customise__ button to configure your own installation type in the __Installation Type__ section. Click __Install__ to proceed further.
+   ![Installation Type](VirBox-3.png)
+   The __Installer__ dialog box appears. 
+5. Enter your machine's login credentials and then click __Install Software__ to start the installation.
+   ![Installer dialog box](VirBox-4.png)
+   The installation process starts.
+   ![Installation](VirBox-5.png)
+6. After the completion of installation, the __Summary__ section confirms this by showing _The installation was successful._ message. Click __Close__ proceed further.
+   ![Installation success](VirBox-6.png)
+7. A small dialog box appears, asking whether to keep or move the package installer to Bin. Click __Move to Bin__ to remove the installer from file system.
+   ![Move to Bin](VirBox-7.png)
+
+
+
+
