@@ -1,11 +1,11 @@
 # 📌 Technical Writing Portfolio
 
 ## 👋 About Me
-**Name:** Varun Chakravarthy Kanthety 
+**Name:** Varun Chakravarthy Kanthety  
 **Location:** Guntur, Andhra Predesh, India.  
 **Email:** vc.kanthety@gmail.com  
-**Portfolio:** [My portfolio](https://veeneedvee.github.io/Work-Samples/)
-**GitHub/LinkedIn:** [LinkedIn profile](https://www.linkedin.com/in/v4r00n/)  
+**Portfolio:** [My portfolio](https://veeneedvee.github.io/Work-Samples/)  
+**LinkedIn:** [LinkedIn profile](https://www.linkedin.com/in/v4r00n/)  
 
 > Passionate **Technical Writer** specializing in **AI, API Docs, DevSecOps, Cloud, and Cybersecurity**.
 
@@ -28,7 +28,7 @@
 - [OAuth 2.0 Authentication](#)
 
 ### 🔧 User Guides & Tutorials
-- [MOnitorIQ user guide](https://github.com/veeneedvee/Work-Samples/blob/main/MonitorIQ%20v8.0.34%20Sample.pdf)
+- [MonitorIQ user guide](https://github.com/veeneedvee/Work-Samples/blob/main/MonitorIQ%20v8.0.34%20Sample.pdf)
 - [Trance user guide](https://github.com/veeneedvee/Work-Samples/blob/main/Trance%20v4.0%20Sample.pdf)
 - [VirtualBox Installation and deployment](https://github.com/veeneedvee/Work-Samples/blob/main/virtualboc-installation-guide.md)
 - [Docker Installation & Setup](#)
@@ -48,7 +48,7 @@
 ## 🛠️ Tools & Technologies
 ✔ **Writing:** MS Word, MS PowerPoint, DITA, Markdown, Mkdocs, AsciiDoc, reStructuredText  
 ✔ **API Docs:** OpenAPI (Swagger), Postman, Redoc  
-✔ **DevOps:** AWS, Docker, Kubernetes, GitOps
+✔ **DevOps:** AWS, Docker, Kubernetes, GitOps  
 ✔ **Markup:** XML, HTML, JSON, YAML
 
 ---
