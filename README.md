@@ -56,5 +56,5 @@
 ## 📞 Contact Me
 📧 **Email:** vc.kanthety@gmail.com  
 🔗 **LinkedIn:** [LinkedIn profile](https://www.linkedin.com/in/v4r00n/)  
-🌐 **Portfolio:** [My portfolio](https://veeneedvee.github.io/Work-Samples/)
+🌐 **Portfolio:** [My portfolio](https://veeneedvee.github.io/Work-Samples/)  
 🔀 **GitHub:** [My GitHub profile](https://github.com/veeneedvee)
