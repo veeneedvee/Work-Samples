@@ -61,10 +61,12 @@ You can also download older versions by clicking _VirtualBox older builds_ link 
    ![Select Destination](VirBox-2-1.png)
 4. Next, choose either standard installation or click __Customise__ button to configure your own installation type in the __Installation Type__ section. Click __Install__ to proceed further.  
    
-   ![Installation Type](VirBox-3.png)
+   ![Installation Type](VirBox-3.png)  
+
    The __Installer__ dialog box appears. 
 5. Enter your machine's login credentials and then click __Install Software__ to start the installation.
-   ![Installer dialog box](VirBox-4.png)
+   ![Installer dialog box](VirBox-4.png)  
+   
    The installation process starts.  
 
    ![Installation](VirBox-5.png)
