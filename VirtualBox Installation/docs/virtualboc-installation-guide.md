@@ -54,7 +54,8 @@ You can also download older versions by clicking _VirtualBox older builds_ link 
 
 1. To install VirtualBox, double-click the downloaded package installer.
    The _Install Oracle VirtualBox_ wizard appears.
-2. Click __Continue__ to proceed further.
+2. Click __Continue__ to proceed further.  
+   
    ![Start installation](VirBox-1.png)
 3. Choose a suitable option from __Destination Select__ section and click __Continue__. 
    ![Select Destination](VirBox-2-1.png)
