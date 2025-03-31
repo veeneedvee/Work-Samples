@@ -28,9 +28,13 @@
 - [OAuth 2.0 Authentication](#)
 
 ### 🔧 User Guides & Tutorials
+- MonitorIQ user guide
+  <iframe src="https://github.com/veeneedvee/Work-Samples/blob/main/MonitorIQ%20v8.0.34%20Sample.pdf" width="100%" height="600px" title="link"></iframe>
+- Trance user guide
+  <iframe src="https://github.com/veeneedvee/Work-Samples/blob/main/Trance%20v4.0%20Sample.pdf" width="100%" height="600px" title="link"></iframe>
 - [MonitorIQ user guide](https://github.com/veeneedvee/Work-Samples/blob/main/MonitorIQ%20v8.0.34%20Sample.pdf)
 - [Trance user guide](https://github.com/veeneedvee/Work-Samples/blob/main/Trance%20v4.0%20Sample.pdf)
-- [VirtualBox Installation and deployment](https://github.com/veeneedvee/Work-Samples/blob/main/virtualboc-installation-guide.md)
+- [VirtualBox Installation and deployment](https://github.com/veeneedvee/Work-Samples/blob/main/virtualboc-installation-guide.html)
 - [Docker Installation & Setup](#)
 - [Deploying Kubernetes Clusters](#)
 - [AWS CI/CD Pipeline Guide](#)
