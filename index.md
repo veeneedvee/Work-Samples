@@ -18,6 +18,33 @@
 | **Deploying a Node.js App on AWS** | Comprehensive DevOps guide with Terraform setup | [View Guide](#) |  
 | **AI for Threat Detection** | Research paper on AI-driven security | [Read Paper](#) |
 
+<table>
+  <thead>
+    <tr>
+      <th>📌 <b>Project Name</b></th>
+      <th>📝 <b>Description</b></th>
+      <th>🔗 <b>Link</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>API Documentation for XYZ API</b></td>
+      <td>Created REST API documentation using OpenAPI</td>
+      <td>[View Docs](#)</td>
+    </tr>
+    <tr>
+      <td><b>Deploying a Node.js App on AWS</b></td>
+      <td>Comprehensive DevOps guide with Terraform setup</td>
+      <td>[View Guide](#)</td>
+    </tr>
+    <tr>
+      <td><b>AI for Threat Detection</b></td>
+      <td>Research paper on AI-driven security</td>
+      <td>[Read Paper](#)</td>
+    </tr>
+  </tbody>
+</table>
+
 ---
 
 ## 🛠️ Documentation Categories
