@@ -11,12 +11,12 @@
 
 ---
 
-## 📂 Featured Work
+<!--## 📂 Featured Work
 | 📌 **Project Name** | 📝 **Description** | 🔗 **Link** |  
 |---------------------|-------------------|-------------|  
 | **API Documentation for XYZ API** | Created REST API documentation using OpenAPI | [View Docs](#) |  
 | **Deploying a Node.js App on AWS** | Comprehensive DevOps guide with Terraform setup | [View Guide](#) |  
-| **AI for Threat Detection** | Research paper on AI-driven security | [Read Paper](#) |
+| **AI for Threat Detection** | Research paper on AI-driven security | [Read Paper](#) |-->
 
 <table>
   <thead>
@@ -30,17 +30,17 @@
     <tr>
       <td><b>API Documentation for XYZ API</b></td>
       <td>Created REST API documentation using OpenAPI</td>
-      <td>[View Docs](#)</td>
+      <td><a href="URL">[View Docs](#)</a></td>
     </tr>
     <tr>
       <td><b>Deploying a Node.js App on AWS</b></td>
       <td>Comprehensive DevOps guide with Terraform setup</td>
-      <td>[View Guide](#)</td>
+      <td><a href="URL">[View Guide](#)</a></td>
     </tr>
     <tr>
       <td><b>AI for Threat Detection</b></td>
       <td>Research paper on AI-driven security</td>
-      <td>[Read Paper](#)</td>
+      <td><a href="URL">[Read Paper](#)</a></td>
     </tr>
   </tbody>
 </table>
