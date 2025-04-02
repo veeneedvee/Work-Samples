@@ -1,11 +1,11 @@
 # 📌 Technical Writing Portfolio
 
 ## 👋 About Me
-**Name:** Varun Chakravarthy Kanthety  
-**Location:** Guntur, Andhra Predesh, India.  
-**Email:** vc.kanthety@gmail.com  
-**Portfolio:** [My portfolio](https://veeneedvee.github.io/Work-Samples/)  
-**LinkedIn:** [LinkedIn profile](https://www.linkedin.com/in/v4r00n/)  
+👤 **Name:** Varun Chakravarthy Kanthety  
+📍 **Location:** Guntur, Andhra Pradesh, India.
+📧 **Email:** vc.kanthety@gmail.com  
+🌐 **Portfolio:** [My portfolio](https://veeneedvee.github.io/Work-Samples/)  
+🔗 **LinkedIn:** [LinkedIn profile](https://www.linkedin.com/in/v4r00n/)  
 
 > Passionate **Technical Writer** specializing in **AI, API Docs, DevSecOps, Cloud, and Cybersecurity**.
 
