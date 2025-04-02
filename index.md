@@ -11,7 +11,8 @@
 
 ---
 
-<!--## 📂 Featured Work
+## 📂 Featured Work
+<!--
 | 📌 **Project Name** | 📝 **Description** | 🔗 **Link** |  
 |---------------------|-------------------|-------------|  
 | **API Documentation for XYZ API** | Created REST API documentation using OpenAPI | [View Docs](#) |  
