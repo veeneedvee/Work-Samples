@@ -156,18 +156,19 @@
       color: black;
       font-family: Arial, sans-serif;
       transition: background-color 0.3s, color 0.3s;
-      margin-left: 20px; /* To give some left space */
+      margin-left: 0; /* Remove margin from the left side */
+      padding: 0; /* Ensure there is no padding */
     }
 
     table {
-      width: 80%;
-      margin-top: 20px; /* Adds space above the table */
+      width: auto; /* Remove width setting, table will adjust based on content */
+      margin-left: 0; /* Ensure no margin to left */
       border-collapse: collapse;
     }
 
     th, td {
       border: 1px solid #dddddd;
-      text-align: left; /* Align text to the left in both headers and cells */
+      text-align: left;
       padding: 8px;
     }
 
@@ -183,8 +184,8 @@
 
     /* Dark Mode Table Styling */
     body.dark-mode table {
-      width: 80%; /* Table will still occupy 80% of the page width */
-      margin-top: 20px; /* Space above the table */
+      width: auto; /* Table width will adjust automatically based on content */
+      margin-left: 0; /* No margin for left alignment */
     }
 
     body.dark-mode th, body.dark-mode td {
@@ -192,12 +193,12 @@
     }
 
     body.dark-mode th {
-      background-color: #444; /* Darker background for table headers */
-      color: white; /* Light text for headers */
+      background-color: #444;
+      color: white;
     }
 
     body.dark-mode td {
-      background-color: #555; /* Darker background for table cells */
+      background-color: #555;
     }
 
     /* Button for toggling dark mode */
