@@ -106,11 +106,16 @@
     section {
         margin-bottom: 30px; /* Adjust this value to control the space between sections */
     }
+    #special-heading + hr {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
   
-  <h1>📌 Technical Writing Portfolio</h1>
+  <h1 id="special-heading">📌 Technical Writing Portfolio</h1>
+  <hr>
   <br>
   <br>
   <h2>👋 About Me</h2>
@@ -120,6 +125,7 @@
   📧 <b>Email:</b> vc.kanthety@gmail.com<br>
   🌐 <b>Portfolio:</b> <a href="https://veeneedvee.github.io/Work-Samples/">My portfolio</a><br>
   🔗 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/v4r00n/">My LinkedIn profile</a>
+  
   <section>
   <h2>📂 Featured Work</h2>
     <table>
@@ -149,9 +155,12 @@
     </tbody>
   </table>
 </section>
+
 <section>
 <h2>🛠️ Documentation Categories</h2>
+<br>
 <h3>📖 API Documentation</h3>
+<br>
   <p>
     <ul>
       <li><a href="URL">REST API Documentation</a></li>
@@ -162,6 +171,7 @@
 </section>
 <section>
 <h3>🔧 User Guides & Tutorials</h3>
+<br>
 <ul>
   <li><a href="https://veeneedvee.github.io/Work-Samples/MonitorIQ%20v8.0.34%20Sample.pdf">MonitorIQ user guide</a></li>
   <li><a href="https://veeneedvee.github.io/Work-Samples/Trance%20v4.0%20Sample.pdf">Trance user guide</a></li>
@@ -182,6 +192,7 @@
 
 <section>
 <h3>🔍 Troubleshooting Docs</h3>
+<br>
 <ul>
   <li><a href="URL">Fixing Common Git Errors</a></li>
   <li><a href="URL">Resolving Docker Failures</a></li>
@@ -190,6 +201,7 @@
 
 <section>
 <h3>🛠️ Tools & Technologies</h3>
+<br>
 <ul>
   <li>✔ <b>Writing:</b> MS Word, MS PowerPoint, DITA, Markdown, Mkdocs, AsciiDoc, reStructuredText</li>
   <li>✔ <b>API Docs:</b> OpenAPI (Swagger), Postman, Redoc</li>
@@ -200,10 +212,13 @@
 
 <section>
 <h3>📞 Contact Me</h3>
-<p>📧 **Email:** vc.kanthety@gmail.com  </p>
-<p> 🔗 **LinkedIn:** [LinkedIn profile](https://www.linkedin.com/in/v4r00n/)  </p>
-<p>  🌐 **Portfolio:** [My portfolio](https://veeneedvee.github.io/Work-Samples/) </p> 
-<p>  🔀 **GitHub:** [My GitHub profile](https://github.com/veeneedvee)</p>
+<br>
+<p>
+📧 <b>Email:</b> vc.kanthety@gmail.com <br>
+🔗 <b>LinkedIn:</b> [LinkedIn profile](https://www.linkedin.com/in/v4r00n/)<br>
+🌐 <b>Portfolio:</b> [My portfolio](https://veeneedvee.github.io/Work-Samples/)<br>
+🔀 <b>GitHub:</b> [My GitHub profile](https://github.com/veeneedvee)
+</p>
 </section>
 
   <!-- Dark Mode Toggle Button -->
@@ -228,6 +243,8 @@
     body {
       background-color: white;
       color: black;
+      font-family: Arial, sans-serif;
+      transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
     }
 
     /* Dark Mode Styles */
@@ -244,6 +261,23 @@
     .dark-mode button {
       background-color: #444;
       color: white;
+    }
+    /* Button Styles */
+    .toggle-btn {
+      position: fixed; /* Make the button fixed at the top */
+      top: 20px; /* Distance from the top */
+      right: 20px; /* Distance from the right */
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      z-index: 1000; /* Ensure it's on top */
+    }
+    .toggle-btn:hover {
+      background-color: #0056b3; /* Darker blue on hover */
     }
   </style>
 
