@@ -110,6 +110,40 @@
       margin-top: 10px;
       margin-bottom: 20px;
     }
+    * Remove default bullets for the specific class */
+    .checkmark-list {
+      list-style-type: none; /* Remove default bullet points */
+      padding-left: 0; /* Remove default padding */
+    }
+
+    /* Add ✔ as bullet for specific list */
+    .checkmark-list li {
+      position: relative;
+      padding-left: 30px; /* Space for the checkmark */
+    }
+
+    .checkmark-list li::before {
+      content: "✔"; /* The checkmark symbol */
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 20px; /* Adjust size of the checkmark */
+      color: green; /* Optional: Change color of the checkmark */
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse; /* Removes space between cells */
+    }
+
+    th, td {
+      border: 1px solid #dddddd; /* Light gray border for the cells */
+      text-align: left; /* Align text to the left in both headers and cells */
+      padding: 8px; /* Adds padding inside the cells */
+    }
+
+    th {
+      background-color: #f2f2f2; /* Light gray background for the header */
+    }
   </style>
 </head>
 <body>
@@ -118,6 +152,8 @@
   <hr>
   <br>
   <br>
+  <button id="theme-toggle">Switch to Dark Mode</button>
+  <section>
   <h2>👋 About Me</h2>
   <br>
   👤 <b>Name:</b> Varun Chakravarthy Kanthety <br>
@@ -125,6 +161,7 @@
   📧 <b>Email:</b> vc.kanthety@gmail.com<br>
   🌐 <b>Portfolio:</b> <a href="https://veeneedvee.github.io/Work-Samples/">My portfolio</a><br>
   🔗 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/v4r00n/">My LinkedIn profile</a>
+  </section>
   <br>
   <section>
   <h2>📂 Featured Work</h2>
@@ -155,7 +192,7 @@
     </tbody>
   </table>
 </section>
-
+<br>
 <section>
 <h2>🛠️ Documentation Categories</h2>
 <h3>📖 API Documentation</h3>
@@ -198,7 +235,7 @@
 <br>
 <section>
 <h3>🛠️ Tools & Technologies</h3>
-<ul>
+<ul class="checkmark-list">
   <li>✔ <b>Writing:</b> MS Word, MS PowerPoint, DITA, Markdown, Mkdocs, AsciiDoc, reStructuredText</li>
   <li>✔ <b>API Docs:</b> OpenAPI (Swagger), Postman, Redoc</li>
   <li>✔ <b>DevOps:</b> AWS, Docker, Kubernetes, GitOps</li>
@@ -209,16 +246,14 @@
 <section>
 <h3>📞 Contact Me</h3>
 <p>
-📧 <b>Email:</b> vc.kanthety@gmail.com <br>
-🔗 <b>LinkedIn:</b> [LinkedIn profile](https://www.linkedin.com/in/v4r00n/)<br>
-🌐 <b>Portfolio:</b> [My portfolio](https://veeneedvee.github.io/Work-Samples/)<br>
-🔀 <b>GitHub:</b> [My GitHub profile](https://github.com/veeneedvee)
+📧 <b>Email:</b> <a href="URL">vc.kanthety@gmail.com</a> <br>
+🔗 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/v4r00n/">[LinkedIn profile]</a><br>
+🌐 <b>Portfolio:</b> <a href="https://veeneedvee.github.io/Work-Samples/">[My portfolio]</a><br>
+🔀 <b>GitHub:</b> <a href="https://github.com/veeneedvee">[My GitHub profile]</a>
 </p>
 </section>
 
   <!-- Dark Mode Toggle Button -->
-  <button id="theme-toggle">Switch to Dark Mode</button>
-
   <script>
     const toggleButton = document.getElementById("theme-toggle");
 
