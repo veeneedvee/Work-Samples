@@ -156,17 +156,18 @@
       color: black;
       font-family: Arial, sans-serif;
       transition: background-color 0.3s, color 0.3s;
+      margin-left: 20px; /* To give some left space */
     }
 
     table {
       width: 80%;
-      margin: 20px auto;
+      margin-top: 20px; /* Adds space above the table */
       border-collapse: collapse;
     }
 
     th, td {
       border: 1px solid #dddddd;
-      text-align: left;
+      text-align: left; /* Align text to the left in both headers and cells */
       padding: 8px;
     }
 
@@ -182,9 +183,8 @@
 
     /* Dark Mode Table Styling */
     body.dark-mode table {
-      width: 80%;
-      margin: 20px auto;
-      border-collapse: collapse;
+      width: 80%; /* Table will still occupy 80% of the page width */
+      margin-top: 20px; /* Space above the table */
     }
 
     body.dark-mode th, body.dark-mode td {
