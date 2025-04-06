@@ -97,21 +97,7 @@
     .toggle-btn:hover {
       background-color: #0056b3;
     }
-    /* Default Light Mode Styles */
-    body {
-        background-color: white;
-        color: black;
-        font-family: Arial, sans-serif;
-        transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
-      }
-  
-      /* Dark Mode Styles */
-      body.dark-mode {
-        background-color: #121212;
-        color: #e0e0e0;
-      }
-  
-      button {
+    button {
         padding: 10px 20px;
         cursor: pointer;
       }
