@@ -8,7 +8,7 @@
       margin-top: 10px;
       margin-bottom: 20px;
     }
-    * Remove default bullets for the specific class */
+    /* Remove default bullets for the specific class */
     .checkmark-list {
       list-style-type: none; /* Remove default bullet points */
       padding-left: 0; /* Remove default padding */
