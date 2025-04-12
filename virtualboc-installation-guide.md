@@ -77,7 +77,7 @@ You can also download older versions by clicking _VirtualBox older builds_ link 
    
    ![Move to Bin](VirBox-7.png)
 
-## Create a new VM
+<!--## Create a new VM
 
 To create a new VM, follow these steps:
 
@@ -88,6 +88,6 @@ To create a new VM, follow these steps:
    
    For example, you can give names like—Windows 11, Ubuntu 24.04.2, Ubuntu 20.04.6, SUSE Linux 15, SUSE Linux 12, etc.
 3.  
-
+-->
 
 
