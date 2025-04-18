@@ -46,7 +46,7 @@ Go to [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) page to d
 ![Download VirtualBox Page](image.png)  
 
 You can also download older versions by clicking _VirtualBox older builds_ link in __Previous Releases__ section.
-![Download Older VirtualBox](image-1.png)
+![Download Older VirtualBox](/assets/image-1.png)
 
 ## Steps to install
 
