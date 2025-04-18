@@ -56,26 +56,26 @@ You can also download older versions by clicking _VirtualBox older builds_ link 
    The _Install Oracle VirtualBox_ wizard appears.
 2. Click __Continue__ to proceed.  
    
-   ![Start installation](VirBox-1.png)
+   ![Start installation](/assets/VirBox-1.png)
 3. Choose a suitable option from __Destination Select__ section and click __Continue__. 
-   ![Select Destination](VirBox-2-1.png)
+   ![Select Destination](/assets/VirBox-2-1.png)
 4. Next, choose either standard installation or click __Customise__ button to configure your own installation type in the __Installation Type__ section. Click __Install__ to proceed.  
    
-   ![Installation Type](VirBox-3.png)  
+   ![Installation Type](/assets/VirBox-3.png)  
 
    The __Installer__ dialog box appears. 
 5. Enter your machine's login credentials and then click __Install Software__ to start the installation.
-   ![Installer dialog box](VirBox-4.png)  
+   ![Installer dialog box](/assets/VirBox-4.png)  
 
    The installation process starts.  
 
-   ![Installation](VirBox-5.png)
+   ![Installation](/assets/VirBox-5.png)
 6. After the installation is complete, the __Summary__ section displays the message: The installation was successful. Click __Close__ to proceed.  
    
-   ![Installation success](VirBox-6.png)
+   ![Installation success](/assets/VirBox-6.png)
 7. A small dialog box appears, asking whether to keep or move the package installer to Bin. Click __Move to Bin__ to remove the installer from file system.  
    
-   ![Move to Bin](VirBox-7.png)
+   ![Move to Bin](/assets/VirBox-7.png)
 
 <!--## Create a new VM
 
