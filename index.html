@@ -25,6 +25,7 @@
 
   <section>
     <h2>📂 Featured Work</h2>
+    <div style="overflow-x:auto;"></div>
     <table>
       <thead>
         <tr>
@@ -35,19 +36,19 @@
       </thead>
       <tbody>
         <tr>
-          <td>API Documentation for XYZ API</td>
-          <td>Created REST API documentation using OpenAPI</td>
-          <td><a href="#">View Docs</a></td>
+          <td data-label="📌 Project Name">API Documentation for XYZ API</td>
+          <td data-label="📝 Description">Created REST API documentation using OpenAPI</td>
+          <td data-label="🔗 Link"><a href="#">View Docs</a></td>
         </tr>
         <tr>
-          <td>Deploying a Node.js App on AWS</td>
-          <td>Comprehensive DevOps guide with Terraform setup</td>
-          <td><a href="#">View Guide</a></td>
+          <td data-label="📌 Project Name">Deploying a Node.js App on AWS</td>
+          <td data-label="📝 Description">Comprehensive DevOps guide with Terraform setup</td>
+          <td data-label="🔗 Link"><a href="#">View Guide</a></td>
         </tr>
         <tr>
-          <td>AI for Threat Detection</td>
-          <td>Research paper on AI-driven security</td>
-          <td><a href="#">Read Paper</a></td>
+          <td data-label="📌 Project Name">AI for Threat Detection</td>
+          <td data-label="📝 Description">Research paper on AI-driven security</td>
+          <td data-label="🔗 Link"><a href="#">Read Paper</a></td>
         </tr>
       </tbody>
     </table>
@@ -103,13 +104,17 @@
       <li><strong>Markup:</strong> XML, HTML, JSON, YAML</li>
     </ul>
   </section>
-
+  <footer>
+    <p>Made with ❤️ by <a href="#">Varun C. Kanthety</a></p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
   <section>
     <h2>📞 Contact Me</h2>
-    <p>📧 Email: vc.kanthety@gmail.com<br>
-       🔗 LinkedIn: <a href="https://www.linkedin.com/in/v4r00n/">LinkedIn profile</a><br>
-       🌐 Portfolio: <a href="https://veeneedvee.github.io/Work-Samples/">My portfolio</a><br>
-       🔀 GitHub: <a href="https://github.com/veeneedvee">My GitHub profile</a></p>
+       <div class="contact-icons">
+        <a href="vc.kanthety@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/v4r00n/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/veeneedvee"><i class="fab fa-github"></i></a>
+      </div>
   </section>
 
   <script src="script.js" defer></script>
