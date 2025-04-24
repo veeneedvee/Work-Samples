@@ -1,75 +1,15 @@
-h1 {
-  margin-bottom: 20px; /* Adjust this value to control the space */
-}
-section {
-    margin-bottom: 30px; /* Adjust this value to control the space between sections */
-}
-#special-heading + hr {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-* Remove default bullets for the specific class */
-/* Remove default bullets for the specific class */
-.checkmark-list {
-  list-style-type: none; /* Remove default bullet points */
-  padding-left: 0; /* Remove default padding */
-}
-/* Add ✔ as bullet for specific list */
-.checkmark-list li {
-  position: relative;
-  padding-left: 30px; /* Space for the checkmark */
-}
-.checkmark-list li::before {
-  content: "✔"; /* The checkmark symbol */
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-size: 20px; /* Adjust size of the checkmark */
-  color: green; /* Optional: Change color of the checkmark */
-}
-/* Default Light Mode Styles */
 body {
   background-color: white;
   color: black;
   font-family: Arial, sans-serif;
   transition: background-color 0.3s, color 0.3s;
-  margin-left: 0; /* Remove margin from the left side */
-  padding: 0; /* Ensure there is no padding */
 }
-table {
-  width: auto; /* Remove width setting, table will adjust based on content */
-  margin-left: 0; /* Ensure no margin to left */
-  border-collapse: collapse;
-}
-th, td {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-th {
-  background-color: #f2f2f2;
-}
-/* Dark Mode Styles */
+
 body.dark-mode {
-  background-color: #333;
+  background-color: #222;
   color: white;
 }
-/* Dark Mode Table Styling */
-body.dark-mode table {
-  width: auto; /* Table width will adjust automatically based on content */
-  margin-left: 0; /* No margin for left alignment */
-}
-body.dark-mode th, body.dark-mode td {
-  border: 1px solid #555;
-}
-body.dark-mode th {
-  background-color: #444;
-  color: white;
-}
-body.dark-mode td {
-  background-color: #555;
-}
-/* Button for toggling dark mode */
+
 .toggle-btn {
   position: fixed;
   top: 20px;
@@ -83,32 +23,7 @@ body.dark-mode td {
   cursor: pointer;
   z-index: 1000;
 }
+
 .toggle-btn:hover {
   background-color: #0056b3;
 }
-button {
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-
-  .dark-mode button {
-    background-color: #444;
-    color: white;
-  }
-  /* Button Styles */
-  .toggle-btn {
-    position: fixed; /* Make the button fixed at the top */
-    top: 20px; /* Distance from the top */
-    right: 20px; /* Distance from the right */
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    z-index: 1000; /* Ensure it's on top */
-  }
-  .toggle-btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-  }
